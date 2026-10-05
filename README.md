@@ -6,7 +6,14 @@ A full-stack name generator that turns your answers to five quick questions — 
 
 ## How It's Made:
 
-**Tech used:** HTML, CSS, JavaScript, Node.js, figlet
+**Tech used:** 
+
+![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
+![JavaScript](https://img.shields.io/badge/javascript-%23F7DF1E.svg?style=for-the-badge&logo=javascript&logoColor=black)
+![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white) 
+
+Node modules: http, fs, url, querystring, and the figlet package
 
 The front end is a simple form of five dropdown menus. When you click **Generate Name**, client-side JavaScript reads each selection and sends them to the server with `fetch()` as query parameters (`/api?anime=...&game=...&color=...&sport=...&food=...`).
 
